@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_2/dropdownbuttonpage.dart';
+import 'package:flutter_application_2/formwidgetpage.dart';
+import 'package:flutter_application_2/popupmenupage.dart';
 import 'package:flutter_application_2/snackbardialogpage.dart';
 
 import 'alertdialogpage.dart';
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: AlertDialogPage() ,
+      home: RegistrationPage() ,
     );
   }
 }
